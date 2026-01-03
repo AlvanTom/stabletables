@@ -12,19 +12,19 @@ const projects = [
         description: "A web app to convert media formats locally",
         web: "/convert",
         github: "https://github.com/AlvanTom/stabletables",
-        keywords: ["Next.js", "FFmpeg", "WASM"],
+        keywords: ["Javascript", "Next.js", "FFmpeg", "WASM"],
     },
     {
         title: "BookBuds",
         description: "A book club app to track reading progress among friends",
         github: "https://github.com/AlvanTom/BookBuds",
-        keywords: ["Flask", "AWS"],
+        keywords: ["Python", "Flask", "AWS"],
     },
     {
         title: "Climbr",
         description: "Android app to track climbing sessions",
         github: "https://github.com/AlvanTom/Climbr",
-        keywords: ["Android", "Kotlin", "Firebase"],
+        keywords: ["Kotlin", "Jetpack Compose", "Firebase"],
     },
     {
         title: "BytePusher",
@@ -63,7 +63,7 @@ function ProjectCard({
     keywords?: string[];
 }) {
     return (
-        <Container className={styles["project-card"]} w="32rem">
+        <Container className={styles["project-card"]} maw="32rem" w="100%">
             <Group gap="xs" align="center">
                 <Text component="a" href={link} className={styles.title}>
                     {title}

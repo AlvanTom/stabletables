@@ -1,20 +1,21 @@
 import { createTheme, MantineColorsTuple } from "@mantine/core";
 
-const myColor: MantineColorsTuple = [
-    "#fff4e1",
-    "#ffe8cc",
-    "#fed09b",
-    "#fdb766",
-    "#fca13a",
-    "#fc931d",
-    "#fc8a08",
-    "#e17800",
-    "#c86a00",
-    "#af5a00",
+const purple: MantineColorsTuple = [
+    "#f5f3ff",
+    "#ede9fe",
+    "#ddd6fe",
+    "#c4b5fd",
+    "#a78bfa",
+    "#8878b9",
+    "#8b5cf6",
+    "#7c3aed",
+    "#69369f",
+    "#5b21b6",
 ];
 
 export const theme = createTheme({
+    primaryColor: "purple",
     colors: {
-        myColor,
+        purple,
     },
 });
