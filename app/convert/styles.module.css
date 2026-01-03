@@ -1,0 +1,15 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+.title {
+    font-weight: lighter;
+    font-size: 5rem;
+    line-height: 1;
+}

@@ -1,0 +1,53 @@
+.header {
+    font-weight: lighter;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+
+    .title {
+        font-size: 1.5rem;
+        color: $secondary-color;
+    }
+
+    .description {
+        font-size: 1rem;
+        color: #666;
+    }
+
+    .icon-group {
+        margin-left: auto;
+    }
+
+    .icon {
+        color: #666;
+        text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+
+    .keywords-group {
+        margin-top: 0.5rem;
+    }
+}
+
+.projects-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.projects-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

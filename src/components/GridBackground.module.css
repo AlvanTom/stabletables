@@ -1,0 +1,30 @@
+.gridWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    width: 100%;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%);
+}
+
+.grid {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: 3.5dvh 3.5dvh;
+    background-image: linear-gradient(to right, #8878b9 1px, transparent 1px),
+        linear-gradient(to bottom, #8878b9 1px, transparent 1px);
+    mask-image: url(#linGradMask);
+    -webkit-mask-image: url(#linGradMask);
+}
+
+.background-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

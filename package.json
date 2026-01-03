@@ -1,26 +1,41 @@
 {
-  "name": "stabletables",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "next": "16.1.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+    "name": "stabletables",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "dependencies": {
+        "@ffmpeg/ffmpeg": "^0.12.15",
+        "@ffmpeg/util": "^0.12.2",
+        "@mantine/core": "^8.3.10",
+        "@mantine/dropzone": "^8.3.10",
+        "@mantine/hooks": "^8.3.10",
+        "@tabler/icons-react": "^3.36.0",
+        "motion": "^12.23.26",
+        "next": "16.1.1",
+        "react": "19.2.3",
+        "react-dom": "19.2.3"
+    },
+    "devDependencies": {
+        "@eslint/css": "^0.14.1",
+        "@eslint/js": "^9.39.2",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "eslint": "^9.39.2",
+        "eslint-config-next": "16.1.1",
+        "eslint-plugin-react": "^7.37.5",
+        "globals": "^16.5.0",
+        "jiti": "^2.6.1",
+        "postcss": "^8.5.6",
+        "postcss-preset-mantine": "^1.18.0",
+        "postcss-simple-vars": "^7.0.1",
+        "typescript": "^5",
+        "typescript-eslint": "^8.50.1"
+    }
 }
